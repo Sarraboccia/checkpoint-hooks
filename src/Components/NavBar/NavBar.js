@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import AddMovie from "../AddMovie/AddMovie";
 
-const NavBar = ({addMovie}) => {
+const NavBar = ({ addMovie }) => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
@@ -14,7 +14,7 @@ const NavBar = ({addMovie}) => {
             <Nav.Link href="#pricing">Favorite</Nav.Link>
           </Nav>
 
-          <AddMovie addMovie={addMovie}/>
+          <AddMovie addMovie={addMovie} />
         </Container>
       </Navbar>
     </div>

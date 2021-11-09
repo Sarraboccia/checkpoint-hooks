@@ -12,7 +12,9 @@ export const data = [
 }, {
     title : "Birdbox",
     photo :"https://upload.wikimedia.org/wikipedia/en/b/bd/Bird_Box_%28film%29.png",
-    rate : 5
+    rate: 5
+    
+
 },
 
 

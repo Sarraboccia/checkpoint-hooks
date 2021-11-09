@@ -4,7 +4,9 @@ import Filter from "./Components/Filter/Filter";
 import Movielist from "./Components/MoviesList/Movieslist";
 import NavBar from "./Components/NavBar/NavBar";
 import { data } from "./data.js";
+import ReactStars from "react-rating-stars-component";
 function App() {
+  
 const [textFilter, setTextFilter] = useState("")
 
 
@@ -20,9 +22,11 @@ const [textFilter, setTextFilter] = useState("")
 
   return (
     <div>
+      
       <NavBar addMovie={addMovie}/>
       <Filter setTextFilter={setTextFilter}/>
       <Movielist movies={movies} textFilter={textFilter} />
+      <ReactStars/>
     </div>
   );
 }
