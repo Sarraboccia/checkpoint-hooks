@@ -1,5 +1,9 @@
-body{
+.app{
   box-sizing: border-box;
-  
+  background-image: url(https://miro.medium.com/max/4142/1*S8UogculWFLr3lVdLn05MA.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ 
 }
 

@@ -1,5 +1,19 @@
-.movie{
-    margin-top: 40px;
+.movie {
+  margin-top: 40px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+h2 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.photo-css {
+  border-radius: 40px;
+  filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+}
+
+.photo-css:hover {
     width: 300px;
-    
 }

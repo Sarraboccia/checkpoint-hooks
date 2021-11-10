@@ -1,7 +1,9 @@
 import React from "react";
 import "./filter.css";
+import ReactStars from "react-rating-stars-component";
 
-const Filter = ({setTextFilter}) => {
+
+const Filter = ({setTextFilter,setStarsRate}) => {
   return (
     <div className="body">
       <form action="" class="search-bar">
@@ -10,6 +12,11 @@ const Filter = ({setTextFilter}) => {
           <span>Search</span>
         </button>
       </form>
+      <ReactStars size="40" 
+      
+      
+      onChange={(e)=>setStarsRate(e)}
+      />
     </div>
   );
 };
